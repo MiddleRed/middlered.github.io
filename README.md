@@ -1,2 +1,1 @@
 # middlered.github.io
-w
