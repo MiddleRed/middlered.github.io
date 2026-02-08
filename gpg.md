@@ -2,7 +2,7 @@
 All my public gpg keys
 
 ## Github
-key 1
+key 1 (since 2026/02/08 - valid)
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 
