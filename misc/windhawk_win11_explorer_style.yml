@@ -1,0 +1,24 @@
+# Install this mod in windhawk first
+# https://github.com/ramensoftware/windhawk-mods/blob/main/mods/windows-11-file-explorer-styler.wh.cpp
+
+theme: ''
+backgroundTranslucentEffect: ''
+backgroundTranslucentEffectRegion: ''
+styleConstants:
+  - ''
+controlStyles:
+  - target: FileExplorerExtensions.CommandBarControl > Microsoft.UI.Xaml.Controls.Grid#CommandBarControlRootGrid
+    styles:
+      - BorderThickness=0,1,0,0
+  - target: FileExplorerExtensions.CommandBarControl
+    styles:
+      - Height=8
+      - Margin=0,19,0,00
+  - target: FileExplorerExtensions.NavigationBarControl
+    styles:
+      - Grid.RowSpan=2
+      - Margin=0,0,0,8
+themeResourceVariables:
+  - ''
+explorerFrameContainerHeight: 96
+xamlDiagnosticsHandling: ''
